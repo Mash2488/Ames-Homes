@@ -1,0 +1,106 @@
+Column,Data Type,Missing Values,Description
+order,int64,0,Feature derived from original dataset or engineered column
+pid,int64,0,Property ID
+ms_subclass,int64,0,Type of dwelling involved in the sale
+ms_zoning,object,0,The general zoning classification of the sale
+lot_frontage,float64,0,Linear feet of street connected to the property
+lot_area,int64,0,Lot size in square feet
+street,object,0,Type of road access to the property
+alley,object,0,Type of alley access to the property
+lot_shape,object,0,Feature derived from original dataset or engineered column
+land_contour,object,0,Feature derived from original dataset or engineered column
+utilities,object,0,Feature derived from original dataset or engineered column
+lot_config,object,0,Feature derived from original dataset or engineered column
+land_slope,object,0,Feature derived from original dataset or engineered column
+neighborhood,object,0,Binary indicator for neighborhood category
+condition_1,object,0,Binary flag for quality or condition rating
+condition_2,object,0,Binary flag for quality or condition rating
+bldg_type,object,0,Binary flag for feature type or category
+house_style,object,0,Feature derived from original dataset or engineered column
+overall_qual,int64,0,Overall material and finish quality (1–10 scale)
+overall_cond,int64,0,Overall condition rating (1–10 scale)
+year_built,int64,0,Original construction year
+year_remod/add,int64,0,Year of remodel or addition
+roof_style,object,0,Feature derived from original dataset or engineered column
+roof_matl,object,0,Feature derived from original dataset or engineered column
+exterior_1st,object,0,Binary flag for 'Excellent' category
+exterior_2nd,object,0,Binary flag for 'Excellent' category
+mas_vnr_area,float64,0,Masonry veneer area in square feet
+exter_qual,object,0,Exterior material quality
+exter_cond,object,0,Overall condition of the exterior
+foundation,object,0,Type of foundation
+bsmt_qual,object,80,Basement height
+bsmt_cond,object,80,Basement condition
+bsmt_exposure,object,83,Walkout or garden level basement walls
+bsmtfin_type_1,object,80,Rating of basement finished area (1)
+bsmtfin_sf_1,float64,0,Type 1 finished square feet
+bsmtfin_type_2,object,81,Rating of basement finished area (2)
+bsmtfin_sf_2,float64,0,Type 2 finished square feet
+bsmt_unf_sf,float64,0,Unfinished square feet of basement area
+total_bsmt_sf,float64,0,Total square feet of basement area
+heating,object,0,Type of heating
+heating_qc,object,0,Heating quality and condition
+central_air,object,0,Central air conditioning
+electrical,object,0,Electrical system
+1st_flr_sf,int64,0,First floor square feet
+2nd_flr_sf,int64,0,Second floor square feet
+low_qual_fin_sf,int64,0,Low quality finished square feet (all floors)
+gr_liv_area,int64,0,Above grade (ground) living area square feet
+bsmt_full_bath,float64,0,Basement full bathrooms
+bsmt_half_bath,float64,0,Basement half bathrooms
+full_bath,int64,0,Full bathrooms above grade
+half_bath,int64,0,Half baths above grade
+bedroom_abvgr,int64,0,Bedrooms above grade
+kitchen_abvgr,int64,0,Kitchens above grade
+kitchen_qual,object,0,Kitchen quality
+totrms_abvgrd,int64,0,Total rooms above grade (excluding bathrooms)
+functional,object,0,Home functionality rating
+fireplaces,int64,0,Number of fireplaces
+fireplace_qu,object,1422,Fireplace quality
+garage_yr_blt,float64,0,Year garage was built
+garage_cars,float64,0,Size of garage in car capacity
+garage_area,float64,0,Size of garage in square feet
+paved_drive,object,0,Paved driveway
+wood_deck_sf,int64,0,Wood deck area in square feet
+open_porch_sf,int64,0,Open porch area in square feet
+enclosed_porch,int64,0,Enclosed porch area in square feet
+3ssn_porch,int64,0,Three season porch area in square feet
+screen_porch,int64,0,Screen porch area in square feet
+pool_area,int64,0,Pool area in square feet
+pool_qc,object,2917,Pool quality
+fence,object,2358,Fence quality
+misc_feature,object,2824,Miscellaneous feature not covered in other categories
+misc_val,int64,0,Value of miscellaneous features
+mo_sold,int64,0,Month sold
+yr_sold,int64,0,Year sold
+sale_type,object,0,Type of sale
+sale_condition,object,0,Condition of sale
+saleprice,int64,0,Sale price of the house
+mas_vnr_type_BrkCmn,float64,0,Binary flag for feature type or category
+mas_vnr_type_BrkFace,float64,0,Binary flag for 'Fair' category
+mas_vnr_type_CBlock,float64,0,Binary flag for feature type or category
+mas_vnr_type_None,float64,0,Binary flag for whether this feature is marked as 'None'
+mas_vnr_type_Stone,float64,0,Binary flag for feature type or category
+garage_type_2Types,int64,0,Binary or numeric indicator related to garage
+garage_type_Attchd,int64,0,Binary flag for specific garage type
+garage_type_Basment,int64,0,Binary or numeric indicator related to garage
+garage_type_BuiltIn,int64,0,Binary flag for specific garage type
+garage_type_CarPort,int64,0,Binary flag for 'Poor' category
+garage_type_Detchd,int64,0,Binary flag for specific garage type
+garage_type_None,int64,0,Binary flag for whether this feature is marked as 'None'
+garage_finish_Fin,int64,0,Binary or numeric indicator related to garage
+garage_finish_None,int64,0,Binary flag for whether this feature is marked as 'None'
+garage_finish_RFn,int64,0,Binary or numeric indicator related to garage
+garage_finish_Unf,int64,0,Binary flag for 'Unfinished' or 'Unfavorable' category
+garage_qual_Ex,int64,0,Binary flag for 'Excellent' category
+garage_qual_Fa,int64,0,Binary flag for 'Fair' category
+garage_qual_Gd,int64,0,Binary flag for 'Good' category
+garage_qual_None,int64,0,Binary flag for whether this feature is marked as 'None'
+garage_qual_Po,int64,0,Binary flag for 'Poor' category
+garage_qual_TA,int64,0,Binary flag for 'Typical/Average' category
+garage_cond_Ex,int64,0,Binary flag for 'Excellent' category
+garage_cond_Fa,int64,0,Binary flag for 'Fair' category
+garage_cond_Gd,int64,0,Binary flag for 'Good' category
+garage_cond_None,int64,0,Binary flag for whether this feature is marked as 'None'
+garage_cond_Po,int64,0,Binary flag for 'Poor' category
+garage_cond_TA,int64,0,Binary flag for 'Typical/Average' category
